@@ -25,6 +25,12 @@
 		A7A19FA42D14FAD400F7AFF8 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A19FA22D14FAD400F7AFF8 /* ImagesView.swift */; };
 		A7A19FAC2D15050E00F7AFF8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A19FAB2D15050E00F7AFF8 /* LoginView.swift */; };
 		A7A19FAD2D15050E00F7AFF8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A19FAB2D15050E00F7AFF8 /* LoginView.swift */; };
+		A7A19FB52D15128B00F7AFF8 /* tarea03.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A19FB42D15128B00F7AFF8 /* tarea03.swift */; };
+		A7A19FB62D15128B00F7AFF8 /* tarea03.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A19FB42D15128B00F7AFF8 /* tarea03.swift */; };
+		A7C358BB2D1A364800FBEA8A /* BotonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C358BA2D1A364800FBEA8A /* BotonesView.swift */; };
+		A7C358BC2D1A364800FBEA8A /* BotonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C358BA2D1A364800FBEA8A /* BotonesView.swift */; };
+		A7C358C22D1A440900FBEA8A /* ListaBotonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C358C12D1A440900FBEA8A /* ListaBotonesView.swift */; };
+		A7C358C32D1A440900FBEA8A /* ListaBotonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C358C12D1A440900FBEA8A /* ListaBotonesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,9 @@
 		A7A15ED52D126DAF00F150F8 /* Tarea02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea02.swift; sourceTree = "<group>"; };
 		A7A19FA22D14FAD400F7AFF8 /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		A7A19FAB2D15050E00F7AFF8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A7A19FB42D15128B00F7AFF8 /* tarea03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarea03.swift; sourceTree = "<group>"; };
+		A7C358BA2D1A364800FBEA8A /* BotonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotonesView.swift; sourceTree = "<group>"; };
+		A7C358C12D1A440900FBEA8A /* ListaBotonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaBotonesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +84,14 @@
 		A74CA7CE2D0BC6E300ADE11A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A7C358B92D1A362E00FBEA8A /* imagenes */,
 				A7A19FA12D14FAB600F7AFF8 /* tareas */,
 				A7A19F9E2D14FAAC00F7AFF8 /* textos */,
 				A7A19F9B2D14FA9C00F7AFF8 /* creditsCards */,
 				A74CA7CF2D0BC6E300ADE11A /* CatalogosAppApp.swift */,
 				A74CA7D12D0BC6E600ADE11A /* Assets.xcassets */,
-				A7A19FA22D14FAD400F7AFF8 /* ImagesView.swift */,
-				A7A19FAB2D15050E00F7AFF8 /* LoginView.swift */,
+				A7C358BA2D1A364800FBEA8A /* BotonesView.swift */,
+				A7C358C12D1A440900FBEA8A /* ListaBotonesView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -134,8 +144,18 @@
 			isa = PBXGroup;
 			children = (
 				A7A15ED52D126DAF00F150F8 /* Tarea02.swift */,
+				A7A19FB42D15128B00F7AFF8 /* tarea03.swift */,
 			);
 			path = tareas;
+			sourceTree = "<group>";
+		};
+		A7C358B92D1A362E00FBEA8A /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				A7A19FA22D14FAD400F7AFF8 /* ImagesView.swift */,
+				A7A19FAB2D15050E00F7AFF8 /* LoginView.swift */,
+			);
+			path = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,12 +256,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7A15ED12D126AAE00F150F8 /* SaludosView.swift in Sources */,
+				A7C358BB2D1A364800FBEA8A /* BotonesView.swift in Sources */,
 				A74CA7E42D0BC6E600ADE11A /* ContentView.swift in Sources */,
 				A74CA7E22D0BC6E600ADE11A /* CatalogosAppApp.swift in Sources */,
 				A7A19FA32D14FAD400F7AFF8 /* ImagesView.swift in Sources */,
 				A70C7E2E2D13AE7700ABEAB7 /* MyCreditCardsView.swift in Sources */,
 				A70C7E292D13A86200ABEAB7 /* CreditCardView.swift in Sources */,
+				A7C358C22D1A440900FBEA8A /* ListaBotonesView.swift in Sources */,
 				A7A19FAC2D15050E00F7AFF8 /* LoginView.swift in Sources */,
+				A7A19FB52D15128B00F7AFF8 /* tarea03.swift in Sources */,
 				A7A15ED62D126DAF00F150F8 /* Tarea02.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +274,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7A15ED22D126AAE00F150F8 /* SaludosView.swift in Sources */,
+				A7C358BC2D1A364800FBEA8A /* BotonesView.swift in Sources */,
 				A74CA7E52D0BC6E600ADE11A /* ContentView.swift in Sources */,
 				A74CA7E32D0BC6E600ADE11A /* CatalogosAppApp.swift in Sources */,
 				A7A19FA42D14FAD400F7AFF8 /* ImagesView.swift in Sources */,
 				A70C7E2F2D13AE7700ABEAB7 /* MyCreditCardsView.swift in Sources */,
 				A70C7E2A2D13A86200ABEAB7 /* CreditCardView.swift in Sources */,
+				A7C358C32D1A440900FBEA8A /* ListaBotonesView.swift in Sources */,
 				A7A19FAD2D15050E00F7AFF8 /* LoginView.swift in Sources */,
+				A7A19FB62D15128B00F7AFF8 /* tarea03.swift in Sources */,
 				A7A15ED72D126DAF00F150F8 /* Tarea02.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
