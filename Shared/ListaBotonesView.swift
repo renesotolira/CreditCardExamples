@@ -17,6 +17,7 @@ struct ListaBotonesView: View {
             if(aumento == 1.0) {
                 aumento = aumento + 0.2
             }else {
+            }
                 aumento = 1.0
             }
         }
