@@ -25,7 +25,6 @@ struct ListaBotonesView: View {
     var body: some View {
         VStack{
             
-            
             CreditCardView(bank: "Stori", number: "1234 5678 9101 2134")
                 .scaleEffect(aumento)
                 .onTapGesture {

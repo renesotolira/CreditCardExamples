@@ -55,7 +55,9 @@ struct BotonesView: View {
             Text( " \(contador) " )
             
             Text( saludo )
-            
+              
+            Image(systemName: "airplaine")
+        
             Button( action: {
                contadorConSaludo()
             } ) {
