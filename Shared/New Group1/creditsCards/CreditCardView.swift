@@ -18,6 +18,7 @@ struct CreditCardView: View {
     var number: String /*Int*/
     let name: String = "Rene Soto Lira"
     var color: Color  = Color.blue
+    @State var isActive: Bool = true
     
     var body: some View {
         
@@ -46,15 +47,31 @@ struct CreditCardView: View {
             
             Text( number )
             
-            Text(name)
-                .lineLimit(1)
+            ZStack{
+                Text(name)
+                    .lineLimit(1)
+                
+                HStack(){
+                    Spacer()
+                    Button( action: {
+                        withAnimation(){
+                            self.isActive.toggle()
+                        }
+                    } ){
+                        Image(systemName: "lock")
+                    }
+                }//aqui cierra el hstrack
+            }//aqui cierra el zstack
             
         }
         .frame(minWidth: 5 , idealWidth: 80, maxWidth: 180)
         .foregroundColor(.white)
         .padding(.all, 16)
-        .background(color)
+        .background( isActive ? color : Color.gray )//operador ternario
         .cornerRadius(8.0)
+        //.rotation3DEffect(.degrees(45), axis: (x: 180, y: 1, z: 360))
+        
+        .rotationEffect(isActive ? .degrees(0) : .degrees(180) )
         //.padding(.horizontal, 48)
         
     }
