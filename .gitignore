@@ -1,0 +1,40 @@
+# Archivos generados por Xcode
+*.xcuserdata
+*.xcuserstate
+
+# Directorios de autoguardado y de compilación
+DerivedData/
+*.moved-aside
+*.swp
+*.swpx
+.idea/
+
+# Archivos temporales y de caché
+*.mode1v3
+*.pbxuser
+!default.mode1v3
+!default.pbxuser
+
+# Configuraciones específicas de usuario
+xcuserdata/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
