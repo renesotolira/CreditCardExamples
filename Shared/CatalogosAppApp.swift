@@ -11,7 +11,7 @@ import SwiftUI
 struct CatalogosAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListaBotonesView()
         }
     }
 }

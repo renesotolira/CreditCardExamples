@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+/*
 struct MyCreditCardsView: View {
     var body: some View {
         VStack{
            
-            CreditCardView(bank: "Banamex", number: "1111 1111 1111 1111")
+            CreditCardView(bank: "Banamex", number: "1111 1111 1111 1111", .constant()
             
             CreditCardView(bank: "NU", number: "2222 2222 2222 2222", color: Color.purple)
             
@@ -33,3 +34,4 @@ struct MyCreditCardsView_Previews: PreviewProvider {
         MyCreditCardsView()
     }
 }
+ */
