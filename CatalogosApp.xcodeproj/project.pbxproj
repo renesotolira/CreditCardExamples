@@ -11,6 +11,8 @@
 		A70C7E2A2D13A86200ABEAB7 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C7E282D13A86200ABEAB7 /* CreditCardView.swift */; };
 		A70C7E2E2D13AE7700ABEAB7 /* MyCreditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C7E2D2D13AE7700ABEAB7 /* MyCreditCardsView.swift */; };
 		A70C7E2F2D13AE7700ABEAB7 /* MyCreditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C7E2D2D13AE7700ABEAB7 /* MyCreditCardsView.swift */; };
+		A70DCF122D28B227001AAF29 /* CreditCardViewNeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70DCF112D28B227001AAF29 /* CreditCardViewNeo.swift */; };
+		A70DCF132D28B227001AAF29 /* CreditCardViewNeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70DCF112D28B227001AAF29 /* CreditCardViewNeo.swift */; };
 		A74CA7E22D0BC6E600ADE11A /* CatalogosAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CA7CF2D0BC6E300ADE11A /* CatalogosAppApp.swift */; };
 		A74CA7E32D0BC6E600ADE11A /* CatalogosAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CA7CF2D0BC6E300ADE11A /* CatalogosAppApp.swift */; };
 		A74CA7E42D0BC6E600ADE11A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CA7D02D0BC6E300ADE11A /* ContentView.swift */; };
@@ -37,6 +39,7 @@
 /* Begin PBXFileReference section */
 		A70C7E282D13A86200ABEAB7 /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
 		A70C7E2D2D13AE7700ABEAB7 /* MyCreditCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCreditCardsView.swift; sourceTree = "<group>"; };
+		A70DCF112D28B227001AAF29 /* CreditCardViewNeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewNeo.swift; sourceTree = "<group>"; };
 		A74CA7CF2D0BC6E300ADE11A /* CatalogosAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogosAppApp.swift; sourceTree = "<group>"; };
 		A74CA7D02D0BC6E300ADE11A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A74CA7D12D0BC6E600ADE11A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,7 +96,6 @@
 				A7A19F9E2D14FAAC00F7AFF8 /* textos */,
 				A74CA7CF2D0BC6E300ADE11A /* CatalogosAppApp.swift */,
 				A74CA7D12D0BC6E600ADE11A /* Assets.xcassets */,
-				A7C358C12D1A440900FBEA8A /* ListaBotonesView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -129,6 +131,7 @@
 			children = (
 				A70C7E282D13A86200ABEAB7 /* CreditCardView.swift */,
 				A70C7E2D2D13AE7700ABEAB7 /* MyCreditCardsView.swift */,
+				A70DCF112D28B227001AAF29 /* CreditCardViewNeo.swift */,
 			);
 			path = creditsCards;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 		A7B04D942D1F791C007DAAFC /* Bindings */ = {
 			isa = PBXGroup;
 			children = (
+				A7C358C12D1A440900FBEA8A /* ListaBotonesView.swift */,
 				A7A19F9B2D14FA9C00F7AFF8 /* creditsCards */,
 				A7C358BA2D1A364800FBEA8A /* BotonesView.swift */,
 			);
@@ -278,6 +282,7 @@
 				A7A15ED12D126AAE00F150F8 /* SaludosView.swift in Sources */,
 				A7B04D9A2D1F79C0007DAAFC /* LabelsView.swift in Sources */,
 				A7C358BB2D1A364800FBEA8A /* BotonesView.swift in Sources */,
+				A70DCF122D28B227001AAF29 /* CreditCardViewNeo.swift in Sources */,
 				A74CA7E42D0BC6E600ADE11A /* ContentView.swift in Sources */,
 				A74CA7E22D0BC6E600ADE11A /* CatalogosAppApp.swift in Sources */,
 				A7A19FA32D14FAD400F7AFF8 /* ImagesView.swift in Sources */,
@@ -302,6 +307,7 @@
 				A70C7E2F2D13AE7700ABEAB7 /* MyCreditCardsView.swift in Sources */,
 				A70C7E2A2D13A86200ABEAB7 /* CreditCardView.swift in Sources */,
 				A7C358C32D1A440900FBEA8A /* ListaBotonesView.swift in Sources */,
+				A70DCF132D28B227001AAF29 /* CreditCardViewNeo.swift in Sources */,
 				A7A19FAD2D15050E00F7AFF8 /* LoginView.swift in Sources */,
 				A7A19FB62D15128B00F7AFF8 /* tarea03.swift in Sources */,
 				A7A15ED72D126DAF00F150F8 /* Tarea02.swift in Sources */,
