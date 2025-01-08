@@ -31,6 +31,7 @@ struct ListaBotonesView: View {
         VStack{
             
             Text("un pequeno acambio")
+            Text("respuesta al cambio")
             
             //Este es mi hijo
             CreditCardView(index:0, bank: "Banamex", number: "1234 5678 9101 2134", isActive: activado, indexLocked: $tarjetaSeleccionada)
