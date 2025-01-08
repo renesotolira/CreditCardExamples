@@ -9,7 +9,17 @@ import SwiftUI
 
 struct LabelsView: View {
     var body: some View {
-        Label("Carro", systemImage: "car")
+        
+        VStack{
+        
+            Label("Carros", systemImage: "car")
+                .modifier( RoundGrayViewModifer()  )
+            
+            Text("hola")
+                .modifier( RoundGrayViewModifer( strokeWidth: 8 , color: Color.red)  )
+            
+        }
+                
     }
 }
 

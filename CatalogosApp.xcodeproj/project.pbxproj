@@ -30,6 +30,7 @@
 		A7A19FB52D15128B00F7AFF8 /* tarea03.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A19FB42D15128B00F7AFF8 /* tarea03.swift */; };
 		A7A19FB62D15128B00F7AFF8 /* tarea03.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A19FB42D15128B00F7AFF8 /* tarea03.swift */; };
 		A7B04D9A2D1F79C0007DAAFC /* LabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B04D992D1F79C0007DAAFC /* LabelsView.swift */; };
+		A7B04DA02D1F7FE0007DAAFC /* RoundGrayViewModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B04D9F2D1F7FE0007DAAFC /* RoundGrayViewModifer.swift */; };
 		A7C358BB2D1A364800FBEA8A /* BotonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C358BA2D1A364800FBEA8A /* BotonesView.swift */; };
 		A7C358BC2D1A364800FBEA8A /* BotonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C358BA2D1A364800FBEA8A /* BotonesView.swift */; };
 		A7C358C22D1A440900FBEA8A /* ListaBotonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C358C12D1A440900FBEA8A /* ListaBotonesView.swift */; };
@@ -54,6 +55,7 @@
 		A7A19FAB2D15050E00F7AFF8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A7A19FB42D15128B00F7AFF8 /* tarea03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarea03.swift; sourceTree = "<group>"; };
 		A7B04D992D1F79C0007DAAFC /* LabelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsView.swift; sourceTree = "<group>"; };
+		A7B04D9F2D1F7FE0007DAAFC /* RoundGrayViewModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundGrayViewModifer.swift; sourceTree = "<group>"; };
 		A7C358BA2D1A364800FBEA8A /* BotonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotonesView.swift; sourceTree = "<group>"; };
 		A7C358C12D1A440900FBEA8A /* ListaBotonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaBotonesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				A7B04D992D1F79C0007DAAFC /* LabelsView.swift */,
+				A7B04D9F2D1F7FE0007DAAFC /* RoundGrayViewModifer.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7A15ED12D126AAE00F150F8 /* SaludosView.swift in Sources */,
+				A7B04DA02D1F7FE0007DAAFC /* RoundGrayViewModifer.swift in Sources */,
 				A7B04D9A2D1F79C0007DAAFC /* LabelsView.swift in Sources */,
 				A7C358BB2D1A364800FBEA8A /* BotonesView.swift in Sources */,
 				A70DCF122D28B227001AAF29 /* CreditCardViewNeo.swift in Sources */,
