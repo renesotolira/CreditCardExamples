@@ -30,6 +30,8 @@ struct ListaBotonesView: View {
     var body: some View {
         VStack{
             
+            Text("un pequeno acambio")
+            
             //Este es mi hijo
             CreditCardView(index:0, bank: "Banamex", number: "1234 5678 9101 2134", isActive: activado, indexLocked: $tarjetaSeleccionada)
                 .scaleEffect(aumento)
